@@ -4,8 +4,8 @@ const biggest = (tab) => {
     if (bignb < tab[i]) {
       bignb = tab[i]
     }
-    return bignb
   }
+  return bignb
 }
 
 console.log(biggest([99, 100, 101, 1]))
